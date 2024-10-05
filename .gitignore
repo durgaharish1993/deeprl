@@ -1,0 +1,76 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python package distributions
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+*.log
+
+# Output files
+*.h5
+*.hdf5
+*.model
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.json
+*.xml
+*.yaml
+*.onnx
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test output
+coverage/
+*.cover
+*.xml
+*.html
+
+# TensorFlow/Keras specific
+tf_logs/
+tensorboard_logs/
+
+# PyTorch specific
+*.pt
+*.pth
+*.pytorch_model
+
+# Other potential files to ignore
+data/raw/
+data/interim/
+data/processed/
+notebooks/.ipynb_checkpoints/
