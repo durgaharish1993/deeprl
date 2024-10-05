@@ -13,7 +13,6 @@ class categoricalpolicy:
         log_likelihood = torch.log(torch.diagonal(action_probs[range(batch_size), sampled_action ]))
         return log_likelihood
 
-
 if __name__ == "__main__":
 
     cate_parameter = Parameter()
